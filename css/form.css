@@ -1,0 +1,356 @@
+/* Bhavya Sai Mooga - N01651100, Sri Harshini Jilloju - N01649103 Date:27th March,2024*/
+header{
+    /* Image Source : https://pngtree.com/freebackground/aesthetic-coffee-beans-resting-on-a-textured-gray-wooden-table_15309994.html */
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat;
+    height:360px;
+    width:100%;
+    background-size: cover;
+    background-position: bottom;
+}
+header h1{
+    float:right;
+    color:rgb(29, 3, 3);
+    font-family: 'luminari', fantasy;
+    font-size:80px ;
+    text-shadow: 2px 2px 0px  #d4c4bd;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin: 0;
+}
+header h3{
+    float:right;
+    color:#d4c4bd;
+    clear:both;
+    font-family: 'Niconne', cursive;
+    font-size:40px ;
+    text-shadow: 2px 2px 0px  rgb(35, 24, 24);
+    padding-right: 20px;
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-color: rgb(49, 33, 33);
+}
+p {
+    color: #d4c4bd;
+    font-size: larger;
+}
+
+h2 {
+    color: #d4c4bd;
+    font-family: 'luminari', fantasy;
+}
+
+.div1 nav{
+    text-align: center;
+    height: auto;
+    padding: 2%;;
+}
+
+.div1 ul {
+    display: inline;
+}
+.div1 ul li{
+    padding: 10px;
+    display: inline;
+}
+.div1 ul li a{
+    color:rgb(39, 4, 4);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Niconne', cursive;
+    display: inline;
+    font-weight:bolder;
+    font-size: x-large;
+}
+.div1 ul li a:hover{
+    text-shadow: 0px 0px 1px rgb(39,4, 4);
+}
+.div1{
+    background-image: linear-gradient(#bdafa9,rgb(93, 70, 70));
+    text-align: center;
+}
+footer p {
+    clear: both;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+footer {
+    background-image: url("../images/coffeechronicles.png");
+    background-repeat: no-repeat;
+    height: auto; /* Adjusted height for responsiveness */
+    width: 100%;
+    background-size: cover;
+}
+
+#form {
+    padding-bottom: 30px;
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Niconne', cursive;
+    color: #d4c4bd;
+    text-align: center;
+    font-size: larger;
+}
+footer h2{
+    padding-left: 180px;
+}
+footer h3 {
+    color: #d4c4bd;
+    font-family: 'Niconne', cursive;
+    text-align: right;
+    padding-right: 250px;
+    font-size: x-large;
+    text-shadow: 3px 3px rgb(35, 24, 24);
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.pics {
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 0.7;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.contact {
+    display: block;
+    padding-left: 40px;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    color: #d4c4bd;
+    text-align: left;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #d4c4bd;
+}
+
+footer div {
+    float: left;
+}
+
+#copy {
+    font-size: small;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+#frame {
+    padding-right: 90px;
+    float: right;
+}
+
+.social {
+    height: 40px;
+    width: 40px;
+}
+
+.person h3 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+form {
+    text-align: center;
+    padding-top: 0%;
+    font-size:x-large;
+    margin: 0;
+}
+.formlabels{
+  text-align: center;
+    font-size: xxx-large;
+    color: #d4c4bd ;
+    margin-top: 0%;
+    
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
+#submit{
+        border: 2px solid #000;
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: 2%;    }
+    #name{
+        border: 2px solid #000;
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        width: 50%;
+    }
+    #phone{
+        border: 2px solid #000;
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        width: 50%;
+    }
+    #email{
+        border: 2px solid #000;
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        width: 50%;
+    }
+    .side{
+        float: left;
+        background-image: url("../images/form.jpg");
+        height: 1619px;
+        width: 20%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #outerwrapper
+    {
+        background-color: rgb(48, 25, 21);
+        margin-top: 0;
+        padding-top: 0%;
+    }
+    #one{
+        background-color: #d4c4bd ;
+    
+    }
+    #two{
+        background-color: #d4c4bd ;
+    }
+    #three{
+        background-color: #d4c4bd ;
+    }
+    .div2{
+        height: auto;
+    }
+    /* Mobile view CSS for max width 780px */
+@media only screen and (max-width: 780px) {
+    /* Adjust font size and spacing for readability */
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .side{
+        display:none;
+    }
+    /* Center align form elements */
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Set maximum width for form elements */
+    #outerwrapper {
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    /* Adjust input field width */
+    input[type="text"],
+    textarea {
+        width: 100%;
+        max-width: 400px;
+    }
+    /* Add padding and margin to form elements */
+    label,
+    input,
+    textarea {
+        margin-bottom: 10px;
+    }
+    /* Center align submit button */
+    #submit {
+        margin-top: 20px;
+        align-self: center;
+    }
+    .formlabels{
+        text-align: center;
+    }
+    .div1 ul {
+        display: block; /* Change the display property of ul to block */
+    }
+
+    .div1 ul li {
+        display: block; /* Change the display property of li to block */
+        padding: 10px 0; /* Adjust padding for better spacing */
+    }
+
+    #frame {
+        display: inline;
+        padding-bottom: 30px;
+        padding-right: 130px;
+    }
+
+    .pics {
+        float: right;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .contact {
+        padding-left: 300px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    header{
+        height:200px
+    }
+    header h1{
+        font-size: 40px;
+    }
+    header h3{
+        font-size: 20px;
+    }
+    .div1 nav ul li{
+        border-bottom: rgb(35, 24, 24) solid 2px;
+    }
+    .div1 nav{
+        padding: 0;
+    }
+    .div1 nav ul{
+        padding-left: 0;
+        margin: 0;
+    }
+    .div1 ul li a{
+        font-size: large;
+    }
+    #wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+

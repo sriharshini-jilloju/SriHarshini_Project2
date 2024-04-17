@@ -1,0 +1,464 @@
+/* Bhavya Sai Mooga - N01651100, Sri Harshini Jilloju - N01649103 Date:27th March,2024*/
+
+/* Header styling */
+header {
+    /* Background image settings */
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 360px; /* Adjusted height */
+    grid-row: 2;
+    grid-column: 1;
+}
+
+/* Header text styling */
+header h1 {
+    float: right;
+    color: rgb(29, 3, 3);
+    font-family: 'luminari', fantasy;
+    font-size: 80px;
+    text-shadow: 2px 2px 0px #d4c4bd;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+header h3 {
+    float: right;
+    color: #d4c4bd;
+    clear: both;
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px rgb(35, 24, 24);
+    padding-right: 20px;
+    margin: 0;
+}
+
+/* Body styling */
+body {
+    background-color: rgb(49, 33, 33);
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+    height: 35%;
+    padding: 2%;
+    /* Background gradient */
+    background-image: linear-gradient(#bdafa9, rgb(93, 70, 70));
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    display: inline;
+}
+
+nav ul li {
+    padding: 20px;
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(39, 4, 4);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Niconne', cursive;
+    display: inline;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav ul li a:hover {
+    text-shadow: 0px 0px 1px rgb(39, 4, 4);
+}
+
+/* Grid container styling */
+.grid_container {
+    grid-row: 3;
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    grid-gap: 20px;
+}
+
+/* Image styling */
+.image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50px 0px 50px 0px;
+    opacity: 0.7;
+}
+
+/* Paragraph styling */
+p {
+    color: #d4c4bd;
+    font-size: larger;
+}
+
+/* Heading 2 styling */
+h2 {
+    color: #d4c4bd;
+    font-family: 'luminari', fantasy;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+/* Footer styling */
+footer {
+    background-image: url("../images/coffeechronicles.png");
+    background-repeat: no-repeat;
+    height: auto; /* Adjusted height for responsiveness */
+    width: 100%;
+    background-size: cover;
+}
+
+footer p {
+    clear: both;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+footer h2 {
+    padding-left: 180px;
+}
+
+/* Form styling */
+#form {
+    padding-bottom: 30px;
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Niconne', cursive;
+    color: #d4c4bd;
+    text-align: center;
+    font-size: larger;
+}
+
+footer h3 {
+    color: #d4c4bd;
+    font-family: 'Niconne', cursive;
+    text-align: right;
+    padding-right: 250px;
+    font-size: x-large;
+    text-shadow: 3px 3px rgb(35, 24, 24);
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Image styling for footer */
+.pics {
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 0.7;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Contact styling */
+.contact {
+    display: block;
+    padding-left: 40px;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    color: #d4c4bd;
+    text-align: left;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #d4c4bd;
+}
+
+footer div {
+    float: left;
+}
+
+#copy {
+    font-size: small;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+#frame {
+    padding-right: 90px;
+    float: right;
+}
+
+/* Social media icon styling */
+.social {
+    height: 40px;
+    width: 40px;
+}
+
+/* Person heading 3 styling */
+.person h3 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+/* Grid item positioning */
+.item1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.item2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.item3 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.item4 {
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.item5 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.item6 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.item7 {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.item8 {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.item9 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.item10 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.item11 {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.item12 {
+    grid-row: 3;
+    grid-column: 4;
+}
+
+/* Image container and overlay styling */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d4c4bd;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 780px) {
+    /* Header adjustments */
+    header {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    header h1 {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    header h3 {
+        font-size: 24px;
+        padding: 0;
+    }
+
+    /* Navigation adjustments */
+    nav {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px;
+        border-bottom: rgb(35, 24, 24) solid 2px;
+    }
+
+    nav ul li a {
+        font-size: large;
+    }
+
+    /* Grid container adjustments */
+    .grid_container {
+        display: block;
+        padding: 20px;
+    }
+
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6,
+    .item7,
+    .item8,
+    .item9,
+    .item10,
+    .item11,
+    .item12 {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    /* Footer adjustments */
+    footer {
+        text-align: center;
+    }
+
+    #form {
+        padding: 20px;
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    .contact p {
+        margin: 10px 0;
+    }
+
+    #frame {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        float: none;
+    }
+
+    footer #frame {
+        justify-content: center;
+    }
+
+    .pics {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer div {
+        float: none;
+    }
+
+    /* Adjustments for images */
+    .image {
+        border-radius: 0;
+    }
+
+    /* Adjustments for overlay text */
+    .overlay p {
+        font-size: 14px;
+    }
+
+    /* Grid item positioning adjustments */
+    .item1,
+    .item3,
+    .item5,
+    .item7,
+    .item9,
+    .item11 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .item2,
+    .item4,
+    .item6,
+    .item8,
+    .item10,
+    .item12 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .item1 h2,
+    .item3 h2,
+    .item5 h2,
+    .item7 h2,
+    .item9 h2,
+    .item11 h2 {
+        padding-top: 150px;
+        padding-left: 70px;
+    }
+
+    .item2 h2,
+    .item4 h2,
+    .item6 h2,
+    .item8 h2,
+    .item10 h2,
+    .item12 h2 {
+        padding-top: 150px;
+        padding-right: 50px;
+    }
+}

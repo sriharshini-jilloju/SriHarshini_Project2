@@ -1,0 +1,388 @@
+/* 
+    Bhavya Sai Mooga - N01651100, 
+    Sri Harshini Jilloju - N01649103 
+    Date: 27th March, 2024
+*/
+
+/* Header Styles */
+header {
+    /* Image Source: https://pngtree.com/freebackground/aesthetic-coffee-beans-resting-on-a-textured-gray-wooden-table_15309994.html */
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat;
+    height: 360px;
+    background-size: cover;
+    background-position: bottom;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+header h1 {
+    float: right;
+    color: rgb(29, 3, 3);
+    font-family: 'luminari', fantasy;
+    font-size: 80px;
+    text-shadow: 2px 2px 0px #d4c4bd;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+header h3 {
+    float: right;
+    color: #d4c4bd;
+    clear: both;
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px rgb(35, 24, 24);
+    padding-right: 20px;
+    margin: 0;
+}
+
+/* Body Styles */
+body {
+    background-color: rgb(49, 33, 33);
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+    height: 35%;
+    padding: 2%;
+    background-image: linear-gradient(#bdafa9, rgb(93, 70, 70));
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    display: inline;
+}
+
+nav ul li {
+    padding: 20px;
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(39, 4, 4);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Niconne', cursive;
+    display: inline;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav ul li a:hover {
+    text-shadow: 0px 0px 1px rgb(39, 4, 4);
+}
+
+/* Grid Container Styles */
+.grid_container {
+    grid-row: 3;
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    grid-gap: 20px;
+}
+
+/* Image Styles */
+.image {
+    height: 500px;
+    width: 500px;
+    border-radius: 50px 0px 50px 0px;
+    opacity: 0.7;
+}
+
+/* Paragraph and Heading Styles */
+p {
+    color: #d4c4bd;
+    font-size: larger;
+}
+
+h2 {
+    color: #d4c4bd;
+    font-family: 'luminari', fantasy;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+/* Footer Styles */
+footer {
+    /* Image Source: https://pngtree.com/freebackground/aesthetic-coffee-beans-resting-on-a-textured-gray-wooden-table_15309994.html */
+    background-image: url("../images/coffeechronicles.png");
+    background-repeat: no-repeat;
+    height: auto; /* Adjusted height for responsiveness */
+    width: 100%;
+    background-size: cover;
+}
+
+footer p {
+    clear: both;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* Form Styles */
+#form {
+    padding-bottom: 30px;
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Niconne', cursive;
+    color: #d4c4bd;
+    text-align: center;
+    font-size: larger;
+}
+
+footer h3 {
+    color: #d4c4bd;
+    font-family: 'Niconne', cursive;
+    text-align: right;
+    padding-right: 250px;
+    font-size: x-large;
+    text-shadow: 3px 3px rgb(35, 24, 24);
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Image and Contact Styles */
+.pics {
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 0.7;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.contact {
+    display: block;
+    padding-left: 40px;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    color: #d4c4bd;
+    text-align: left;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #d4c4bd;
+}
+
+footer div {
+    float: left;
+}
+
+#copy {
+    font-size: small;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+#frame {
+    padding-right: 90px;
+    float: right;
+}
+
+/* Social Media Icons Styles */
+.social {
+    height: 40px;
+    width: 40px;
+}
+
+/* Person Styles */
+.person h3 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+/* Grid Item Styles */
+.item1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.item2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.item3 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.item4 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.item5 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.item6 {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+/* Image Container Styles */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 780px) {
+    /* Header Adjustments */
+    header {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    header h1 {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    header h3 {
+        font-size: 24px;
+        padding: 0;
+    }
+
+    /* Navigation Adjustments */
+    nav {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px;
+        border-bottom: rgb(35, 24, 24) solid 2px;
+    }
+
+    nav ul li a {
+        font-size: large;
+    }
+
+    /* Grid Container Adjustments */
+    .grid_container {
+        display: block;
+        padding: 20px;
+    }
+
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6 {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    /* Footer Adjustments */
+    footer {
+        text-align: center;
+    }
+
+    #form {
+        padding: 20px;
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    .contact p {
+        margin: 10px 0;
+    }
+
+    #frame {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        float: none;
+    }
+
+    footer #frame {
+        justify-content: center;
+    }
+
+    .pics {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer div {
+        float: none;
+    }
+
+    /* Image Adjustments */
+    .image {
+        border-radius: 0;
+    }
+
+    /* Overlay Text Adjustments */
+    .overlay p {
+        font-size: 14px;
+    }
+
+    .item1,
+    .item3,
+    .item5 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .item2,
+    .item4,
+    .item6 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .item1 h2,
+    .item3 h2,
+    .item5 h2 {
+        padding-top: 150px;
+        padding-left: 70px;
+    }
+
+    .item2 h2,
+    .item4 h2,
+    .item6 h2 {
+        padding-top: 150px;
+        padding-right: 50px;
+    }
+}

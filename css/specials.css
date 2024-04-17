@@ -1,0 +1,383 @@
+/* Bhavya Sai Mooga - N01651100, Sri Harshini Jilloju - N01649103 Date: 27th March, 2024 */
+
+/* Header styling */
+header {
+    /* Background image settings */
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 360px; /* Adjusted height */
+    width: 100%;
+}
+
+/* Header text styling */
+header h1 {
+    float: right;
+    color: rgb(29, 3, 3);
+    font-family: 'luminari', fantasy;
+    font-size: 80px;
+    text-shadow: 2px 2px 0px #d4c4bd;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+header h3 {
+    float: right;
+    color: #d4c4bd;
+    clear: both;
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px rgb(35, 24, 24);
+    padding-right: 20px;
+    margin: 0;
+}
+
+/* Body styling */
+body {
+    background-color: rgb(49, 33, 33);
+    margin: 0;
+}
+
+/* Paragraph styling */
+p {
+    color: #d4c4bd;
+    font-size: larger;
+}
+
+/* Heading 2 styling */
+h2 {
+    color: #d4c4bd;
+    font-family: 'luminari', fantasy;
+}
+
+/* Top 1 and Top 2 styling */
+#top1 {
+    padding-left: 2%;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#top2 {
+    padding-left: 2%;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+/* Weekend styling */
+#weekend {
+    background-color: #2e160b;
+    color: #bdafa9;
+}
+
+/* Navigation styling */
+.div1 nav {
+    text-align: center;
+    height: 10%;
+    padding: 2%;
+}
+
+.div1 ul {
+    display: inline;
+}
+
+.div1 ul li {
+    padding: 10px;
+    display: inline;
+}
+
+.div1 ul li a {
+    color: rgb(39, 4, 4);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Niconne', cursive;
+    display: inline;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.div1 ul li a:hover {
+    text-shadow: 0px 0px 1px rgb(39, 4, 4);
+}
+
+.div1 {
+    background-image: linear-gradient(#bdafa9, rgb(93, 70, 70));
+    text-align: center;
+}
+
+/* Footer paragraph styling */
+footer p {
+    clear: both;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* Footer styling */
+footer {
+    background-image: url("../images/coffeechronicles.png");
+    background-repeat: no-repeat;
+    height: auto; /* Adjusted height for responsiveness */
+    width: 100%;
+    background-size: cover;
+}
+
+/* Form styling */
+#form {
+    padding-bottom: 30px;
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Niconne', cursive;
+    color: #d4c4bd;
+    text-align: center;
+    font-size: larger;
+}
+
+footer h2 {
+    padding-left: 180px;
+}
+
+footer h3 {
+    color: #d4c4bd;
+    font-family: 'Niconne', cursive;
+    text-align: right;
+    padding-right: 250px;
+    font-size: x-large;
+    text-shadow: 3px 3px rgb(35, 24, 24);
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Footer image styling */
+.pics {
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 0.7;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Contact styling */
+.contact {
+    display: block;
+    padding-left: 40px;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    color: #d4c4bd;
+    text-align: left;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #d4c4bd;
+}
+
+/* Footer div styling */
+footer div {
+    float: left;
+}
+
+/* Copy styling */
+#copy {
+    font-size: small;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+/* Frame styling */
+#frame {
+    padding-right: 90px;
+    float: right;
+}
+
+/* Social media icon styling */
+.social {
+    height: 40px;
+    width: 40px;
+}
+
+/* Person heading 3 styling */
+.person h3 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d2b6aa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6b4226;
+    color: #fff;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+.item-image {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Outer wrapper styling */
+#outerwrapper {
+    height: auto;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 780px) {
+    /* Base styles for the entire page */
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    /* Top 1 and Top 2 styles */
+    #top1 {
+        padding-left: 2%;
+    }
+
+    #top2 {
+        padding-left: 2%;
+    }
+
+    /* Header styles */
+    header {
+        text-align: center;
+        background-color: #6b4226;
+        color: #fff;
+        padding: 20px;
+    }
+
+    h1,
+    h2 {
+        margin: 0;
+    }
+
+    /* Table styles */
+    .table-container {
+        overflow-x: auto;
+        max-width: 780px; /* Set the maximum width */
+        margin: 0 auto; /* Center the table horizontally */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #d2b6aa;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #6b4226;
+        color: #fff;
+    }
+
+    td {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .item-image {
+        max-width: 100px;
+        height: auto;
+    }
+
+    /* Navigation styling */
+    .div1 ul {
+        display: block; /* Change the display property of ul to block */
+    }
+
+    .div1 ul li {
+        display: block; /* Change the display property of li to block */
+        padding: 10px 0; /* Adjust padding for better spacing */
+    }
+
+    /* Frame styles */
+    #frame {
+        display: inline;
+        padding-bottom: 30px;
+        padding-right: 130px;
+    }
+
+    /* Pics styles */
+    .pics {
+        float: right;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    /* Contact styles */
+    .contact {
+        padding-left: 300px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    /* Wrapper styles */
+    #wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* Header height adjustment */
+    header {
+        height: 200px;
+    }
+
+    /* Header h1 font size adjustment */
+    header h1 {
+        font-size: 40px;
+    }
+
+    /* Header h3 font size adjustment */
+    header h3 {
+        font-size: 20px;
+    }
+
+    /* Div1 navigation ul li border styling */
+    .div1 nav ul li {
+        border-bottom: rgb(35, 24, 24) solid 2px;
+    }
+
+    /* Div1 navigation padding adjustment */
+    .div1 nav {
+        padding: 0;
+    }
+
+    /* Div1 navigation ul padding adjustment */
+    .div1 nav ul {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    /* Div1 ul li a font size adjustment */
+    .div1 ul li a {
+        font-size: large;
+    }
+}

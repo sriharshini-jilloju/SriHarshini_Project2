@@ -1,0 +1,125 @@
+<!--  Sri Harshini Jilloju - N01649103,Bhavya Sai Mooga - N01651100, Date: 27th March,2024-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Chronicles Cafe - Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body>
+    <div id="wrapper">
+    <div class="div1">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./specials.html">Menu</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./form.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <h1>Coffee Chronicles</h1>
+        <h3>Where every sip tells a story</h3>
+    </header>
+</div>
+    <div class="div2">
+        <div class="side">
+
+        </div>
+        <main id="outerwrapper">
+            <h1 class="formlabels">Feedback form!</h1>
+            <form>
+                <!-- Fieldset containing the content for general information -->
+                <fieldset id="one">
+
+                    <label for="feedback">What was your overall experience at our coffee shop today?</label> <br>
+                    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+                    <br>
+                    <label for="coffeeSelection">Did you find our coffee selection satisfactory?</label><br>
+                    <textarea id="coffeeSelection" name="coffeeSelection" rows="4" cols="50"></textarea>
+                    <br>
+                    <label for="cleanliness">How would you rate the cleanliness and ambiance of our coffee
+                        shop?</label><br>
+                    <textarea id="cleanliness" name="cleanliness" rows="4" cols="50"></textarea>
+                    <br>
+                    <label for="staffFriendliness">Were our staff members friendly and helpful during your
+                        visit?</label><br>
+                    <textarea id="staffFriendliness" name="staffFriendliness" rows="4" cols="50"></textarea>
+                    <br><br>
+                    <label>Rate our overall performance:</label>
+                    <input type="radio" name="performance" id="best" class="left" checked>best&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="performance" id="good" class="left">good&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="performance" id="bad" class="left last">bad<br><br>
+                    <label for="additionalFeedback">Is there anything specific you'd like us to know or any additional
+                        feedback you'd like to provide?</label><br>
+                    <textarea id="additionalFeedback" name="additionalFeedback" rows="4" cols="50"></textarea><br>
+
+                </fieldset><br>
+                <h1 class="formlabels">Help us improve our business</h1>
+                <!-- Fieldset containing the content for preferences -->
+                <fieldset id="two">
+
+                    <label for="qualityControl">Quality Control: How can we improve the quality of our coffee and other
+                        products?</label><br>
+                    <textarea id="qualityControl" name="qualityControl" rows="4" cols="50"></textarea>
+                    <br>
+                    <label for="serviceEfficiency">Service Efficiency: Any suggestions to enhance our service speed and
+                        efficiency?</label><br>
+                    <textarea id="serviceEfficiency" name="serviceEfficiency" rows="4" cols="50"></textarea>
+                    <br>
+                    <label for="ambianceEnhancement">Ambiance Enhancement: Ideas for improving our coffee shop's
+                        ambiance?</label><br>
+                    <textarea id="ambianceEnhancement" name="ambianceEnhancement" rows="4" cols="50"></textarea>
+                </fieldset><br>
+                <h1 class="formlabels">Stay connected with our latest updates. Subscribe to our mail services </h1>
+                <!-- Fieldset containing the content for contact information -->
+                <fieldset id="three">
+
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" placeholder="abc@gmail.com">
+                    <span></span> <!-- Error message placeholder -->
+                    <br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone" placeholder="999-999-9999">
+                    <span></span> <!-- Error message placeholder -->
+                    <br><br>
+                </fieldset>
+                <br>
+                <input type="submit" id="submit" value="Submit Request"><br>
+            </form>
+
+        </main>
+        <script src="../js/form.js">
+        </script>
+    </div>
+    <footer>
+        <a id="form" href="./form.html">"Share us your every sip of the story we share to the world"</a>
+        <div class="contact">
+            <!-- Social media links -->
+            <p><a href="mailto:coffeechronicles@gmail.com"><img class="social" src="../images/icons8-mail.gif" alt="Mail"> :CoffeeChronicles</a></p>
+            <p><a href="tel:999-999-9999"><img class="social" src="../images/icons8-phonelink-ring.gif" alt="Call Us"> : 999-999-9999</a></p>
+            <p><a href="https://www.instagram.com"><img class="social" src="../images/icons8-instagram-old.gif" alt="Instagram"></a> : @coffeechronicles</p>
+        </div>
+        <!-- Images and names -->
+        <div id="frame">
+            <div class="person">
+                <img class="pics" src="../images/Harshu.jpeg" alt="Harshini">
+                <h3>Sri Harshini Jilloju</h3>
+            </div>
+            <div class="person">
+                <img class="pics" src="../images/Bhavya.jpeg" alt="Bhavya">
+                <h3>Bhavya Sai Mooga</h3>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <p id="copy">Copyright &copy; 1972 Coffee Chronicles</p>
+    </footer>    
+</body>
+
+</html>
